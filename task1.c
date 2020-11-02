@@ -38,17 +38,11 @@ void *updateInfoStudent(){
     char _TCTichLuy[100];
     char _NoHocPhi[100];
     sprintf(_IDThread,"ID thread: %ld\n",pthread_self());
-   // strcat(contentMail,_IDThread);
     sprintf(_Name,"Ho va ten: %s\n",nQHuy.name);
-   // strcat(contentMail,_Name);
     sprintf(_GPA,"GPA: %0.2f\n",nQHuy.GPA);
-   // strcat(contentMail,_GPA);
     sprintf(_ToeicScore,"Diem Toeic: %d\n",nQHuy.toeicScore);
-   // strcat(contentMail,_ToeicScore);
     sprintf(_TCTichLuy,"Tin chi da tich luy: %d\n",nQHuy.tinChiTichLuy);
-    //strcat(contentMail,_TCTichLuy);
     sprintf(_NoHocPhi,"No hoc phi: %d",nQHuy.noHocPhi);
-    //strcat(contentMail,_NoHocPhi);
     
     char cmd[100];  // to hold the command.
     char tempFile[100];     // name of tempfile.
